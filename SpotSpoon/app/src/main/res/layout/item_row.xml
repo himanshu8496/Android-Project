@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+
+
+    android:layout_height="125dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="120dp"
+            android:background="@drawable/justinbieber1"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:textColor="#000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="EMPTINESS FT.JUSTIN TIBLEKER"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/watch"
+
+                android:text="18 HOURS AGO"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Lorem ipsum is Simply Dummy Text of the Printing Project by Himanshu Shekhar. " />
+            <TextView
+                android:id="@+id/cardTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/colorAccent"
+                android:text="Card Title" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.v7.widget.CardView>
